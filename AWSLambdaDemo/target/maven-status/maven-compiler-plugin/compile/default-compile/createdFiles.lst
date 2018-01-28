@@ -1,0 +1,3 @@
+com\souro\methodhandler\LambdaMethodHandler.class
+com\souro\requesthandler\LambdaRequestHandler.class
+com\souro\requeststreamhandler\LambdaRequestStreamHandler.class

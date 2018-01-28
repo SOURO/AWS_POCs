@@ -1,0 +1,4 @@
+com\souro\dao\MailDao.class
+com\souro\requesthandler\LambdaRequestHandler.class
+com\souro\service\MailServiceDemo.class
+com\souro\service\QueueServiceDemo.class
