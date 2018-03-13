@@ -1,3 +1,3 @@
-D:\Souro_Code_Practice\AwsLambda_SQS_SES_Demo\src\main\java\com\souro\requesthandler\LambdaRequestHandler.java
-D:\Souro_Code_Practice\AwsLambda_SQS_SES_Demo\src\main\java\com\souro\service\QueueServiceDemo.java
-D:\Souro_Code_Practice\AwsLambda_SQS_SES_Demo\src\main\java\com\souro\service\MailServiceDemo.java
+D:\AWS_POCs\AwsLambda_SQS_SES_Demo\src\main\java\com\souro\requesthandler\LambdaRequestHandler.java
+D:\AWS_POCs\AwsLambda_SQS_SES_Demo\src\main\java\com\souro\service\MailServiceDemo.java
+D:\AWS_POCs\AwsLambda_SQS_SES_Demo\src\main\java\com\souro\service\QueueServiceDemo.java

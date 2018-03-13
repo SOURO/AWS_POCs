@@ -3,6 +3,8 @@
  */
 package com.souro.requesthandler;
 
+import java.util.Map;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -16,15 +18,17 @@ import com.souro.service.QueueServiceDemo;
  *
  */
 
-public class LambdaRequestHandler implements RequestHandler<String, String> {
+//public class LambdaRequestHandler implements RequestHandler<String, String> {
+public class LambdaRequestHandler {
 
 	private QueueServiceDemo queueService;
 	
 	private MailServiceDemo mailService;
 
-	public String handleRequest(String input, Context context) {
+	//public String handleRequest(Map<String, Object> input, Context context) {
+	public String handleRequest() {
 
-		context.getLogger().log("Input: " + input);
+		//context.getLogger().log("Input: " + input);
 
 		@SuppressWarnings({ "resource" })
 		ApplicationContext ctxt = new ClassPathXmlApplicationContext("App-Config.xml");
@@ -35,6 +39,7 @@ public class LambdaRequestHandler implements RequestHandler<String, String> {
 		queueService.basicSQSOperations();
 		mailService.sendMail();
 
-		return "Message Retrieved and Mail Sent Successfully from SQS and Using SES, by" + input;
+		//return "Message Retrieved and Mail Sent Successfully from SQS and Using SES, by" + input;
+		return "Message Retrieved and Mail Sent Successfully from SQS and Using SES, by";
 	}
 }
